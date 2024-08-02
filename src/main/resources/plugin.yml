@@ -1,0 +1,20 @@
+name: MarketTime
+version: '${project.version}'
+main: com.itssolarium.markettime.MarketTime
+api-version: '1.20.6'
+
+commands:
+    market:
+        description: Opens the market
+        usage: /market
+    setmarketlocation:
+        description: Sets the market location to the player's current location.
+        usage: /<command>
+
+permissions:
+    markettime.setlocation:
+        description: Allows the player to set the market location
+        default: op
+    markettime.access:
+        description: Allows the player to access the market after hours
+        default: op

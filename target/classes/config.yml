@@ -1,0 +1,5 @@
+market:
+  location: world,100,64,200
+  openTime: 20
+  closeTime: 8
+  radius: 3
